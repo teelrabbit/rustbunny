@@ -1,5 +1,7 @@
 #![feature(proc_macro_hygiene, decl_macro)]
 
+use rocket::response::Redirect;
+
 #[macro_use] extern crate rocket;
 
 #[get("/")]
@@ -8,9 +10,11 @@ fn index() -> &'static str {
 }
 
 #[get("/search?<cmd>")]
-fn search(cmd: String) -> &'static str {
+fn search(cmd: String) -> Redirect {
     print!("You typed this command: {}", cmd);
-    "Hello mello from the search page!"
+    let redirect_url = "https://google.com";
+
+    Redirect::to(redirect_url)
 }
 
 fn main() {
@@ -18,8 +22,11 @@ fn main() {
 }
 
 fn get_command_from_query_string(query_string: &str) -> &str {
-    let test = "hello";
-    return &test;
+    if query_string.contains(" "){
+        let index_of_whitespace = query_string.find(" ").unwrap_or(0);
+        return &query_string[..index_of_whitespace];
+    }
+    &query_string
 }
 
 #[cfg(test)]
