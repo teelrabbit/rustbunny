@@ -9,7 +9,7 @@ fn index() -> &'static str {
 
 #[get("/search")]
 fn search() -> &'static str {
-    "Hello from the search page!"
+    "Hello mello from the search page!"
 }
 
 fn main() {
