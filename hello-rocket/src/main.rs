@@ -7,8 +7,9 @@ fn index() -> &'static str {
     "Hello, world!"
 }
 
-#[get("/search")]
-fn search() -> &'static str {
+#[get("/search?<cmd>")]
+fn search(cmd: String) -> &'static str {
+    print!("You typed this command: {}", cmd);
     "Hello mello from the search page!"
 }
 
