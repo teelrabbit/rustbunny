@@ -1,3 +1,5 @@
+pub mod google;
+
 pub fn get_command_from_query_string(query_string: &str) -> &str {
     if query_string.contains(" "){
         let index_of_whitespace = query_string.find(" ").unwrap_or(0);
