@@ -1,0 +1,11 @@
+/Users/F.Bueller/Documents/GitHub/rustbunny/hello-rocket/target/debug/deps/libpear-6c3a41a5b0e07027.rmeta: /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/lib.rs /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/macros.rs /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/input.rs /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/result.rs /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/debug.rs /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/combinators.rs /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/parsers.rs
+
+/Users/F.Bueller/Documents/GitHub/rustbunny/hello-rocket/target/debug/deps/pear-6c3a41a5b0e07027.d: /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/lib.rs /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/macros.rs /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/input.rs /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/result.rs /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/debug.rs /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/combinators.rs /Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/parsers.rs
+
+/Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/lib.rs:
+/Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/macros.rs:
+/Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/input.rs:
+/Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/result.rs:
+/Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/debug.rs:
+/Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/combinators.rs:
+/Users/F.Bueller/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/parsers.rs:
